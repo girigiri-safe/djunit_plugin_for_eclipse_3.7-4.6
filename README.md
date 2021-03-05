@@ -12,5 +12,5 @@ djUnit plugin for Eclipse version 3.7 - 4.6
 
 
 # version 0.8.6
-- ranable on eclipse3.7 to 4.6.
+- runnable on eclipse3.7 to 4.6.
 - java8 not supported.
