@@ -202,9 +202,9 @@ public class DJUnitLaunchConfiguration extends JUnitLaunchConfigurationDelegate 
 //					.getFile());
 //		}
 
-		junitEntries.add(FileLocator.toFileURL(
-				new URL(djunitURL, LIB_DIR + "jakarta-oro-2.0.7.jar"))
-				.getFile());
+//		junitEntries.add(FileLocator.toFileURL(
+//				new URL(djunitURL, LIB_DIR + "jakarta-oro-2.0.7.jar"))
+//				.getFile());
 	}
 
 	public String getVMArguments(ILaunchConfiguration configuration)
