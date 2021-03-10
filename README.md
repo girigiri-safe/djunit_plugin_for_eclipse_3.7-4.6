@@ -12,6 +12,8 @@ current version 0.9.0
 |4.5|Mars|
 |4.6|Neon|
 
+for version 4.7 - 4.18 is [here](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_4.7-4.18/).
+
 ---
 
 # version 0.8.6
