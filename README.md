@@ -1,28 +1,30 @@
 # djunit_plugin_for_eclipse_3.7-4.6
+
 djUnit plugin for Eclipse version 3.7 - 4.6
 
->current version 0.9.1
+> current version 0.9.1
 
-|eclipse version|code name|
-|:--|--:|
-|3.7|Indigo|
-|4.2|Juno|
-|4.3|Kepler|
-|4.4|Luna|
-|4.5|Mars|
-|4.6|Neon|
+| eclipse version | code name |
+| :-------------- | --------: |
+| 3.7             |    Indigo |
+| 4.2             |      Juno |
+| 4.3             |    Kepler |
+| 4.4             |      Luna |
+| 4.5             |      Mars |
+| 4.6             |      Neon |
 
 for Eclipse 4.7 - 4.18 is [here](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_4.7-4.18/).
 
 Maven Repository: [https://piecemeal-technology-inc.github.io/djunit-maven-repo/](https://piecemeal-technology-inc.github.io/djunit-maven-repo/)
 
-
 ---
 
 ## Tips
+
 > Running djUnit with VSCode Java Test Runner. (djUnit 0.9.1 and later)
 
 - Add the followings in your settings.json
+
 ```
 {
     ...
@@ -30,7 +32,7 @@ Maven Repository: [https://piecemeal-technology-inc.github.io/djunit-maven-repo/
         "name": "run test with djunit.",
         "workingDirectory": "${workspaceFolder}",
         "args": [],
-        "vmArgs": [ 
+        "vmArgs": [
             "-Djava.system.class.loader=jp.co.dgic.testing.common.DJUnitClassLoader" ,
             "-Ddjunit.virtualmock.enable=true",
             "-Ddjunit.asm.version=ASM9",
@@ -42,12 +44,12 @@ Maven Repository: [https://piecemeal-technology-inc.github.io/djunit-maven-repo/
 }
 ```
 
-|VM Arguments|Value|Default|Required|
-|:--|:--|:-:|:-:|
-|java.system.class.loader|jp.co.dgic.testing.common.DJUnitClassLoader||Yes|
-|djunit.virtualmock.enable|true||Yes|
-|djunit.asm.version|ASM9 or ASM5|ASM9|No|
-|djunit.target.src.dir|path to your source folder||Yes|
+| VM Arguments              | Value                                       | Default | Required |
+| :------------------------ | :------------------------------------------ | :-----: | :------: |
+| java.system.class.loader  | jp.co.dgic.testing.common.DJUnitClassLoader |         |   Yes    |
+| djunit.virtualmock.enable | true                                        |         |   Yes    |
+| djunit.asm.version        | ASM9 or ASM5                                |  ASM9   |    No    |
+| djunit.target.src.dir     | path to your source folder                  |         |   Yes    |
 
 <br>
 <br>
@@ -65,6 +67,7 @@ Maven Repository: [https://piecemeal-technology-inc.github.io/djunit-maven-repo/
     </repository>
   </repositories>
 ```
+
 ```
   <dependencies>
     ...
@@ -81,6 +84,7 @@ Maven Repository: [https://piecemeal-technology-inc.github.io/djunit-maven-repo/
     ...
   </dependencies>
 ```
+
 ```
 <build>
     <pluginManagement>
@@ -91,7 +95,7 @@ Maven Repository: [https://piecemeal-technology-inc.github.io/djunit-maven-repo/
           <version>...</version>
           <configuration>
             <includes>
-              <include>**/AllTests.java</include>
+              <include>**/*Test.java</include>
             </includes>
             <argLine>-Djava.system.class.loader=jp.co.dgic.testing.common.DJUnitClassLoader -Ddjunit.coverage.enable=true -Ddjunit.virtualmock.enable=true -Ddjunit.asm.version=ASM9 -Ddjunit.target.src.dir=${project.basedir}\src\main\java</argLine>
           </configuration>
@@ -109,35 +113,37 @@ Maven Repository: [https://piecemeal-technology-inc.github.io/djunit-maven-repo/
 ---
 
 # Release Note
+
 > version 0.9.1
+
 - AppClassLoader compatibility issue fixed for Java9.(Base ClassLoader No Longer from URLClassLoader)
 - Improved compatibility with VSCode "java test runner" , Maven and ANT.
 
 Update Site: [https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/)  
-Download: [djunit.jar](
-https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1.jar)  
+Download: [djunit.jar](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1.jar)  
 Download Updatesite.zip: [djunit-0.9.1-eclipse3.7.x-updatesite.zip](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1-eclipse3.7.x-updatesite.zip)
 
 ---
 
 > version 0.9.0
+
 - ASM 3.x, 2.x and 1.5 removed.
 - Repackaged ASM 5.x, 9.x. included.
 - java8 and java11 supported.
 
 Update Site: [https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/)  
-Download: [djunit.jar](
-https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0.jar)  
+Download: [djunit.jar](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0.jar)  
 Download Updatesite.zip: [djunit-0.9.0-eclipse3.7.x-updatesite.zip](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0-eclipse3.7.x-updatesite.zip)
 
 ---
 
 > version 0.8.6
+
 - runnable on eclipse3.7 to 4.6.
 - java8 not supported.
 
 Update Site: [https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/)  
 Download: [djunit.jar](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6.jar)  
-Download Updatesite.zip: [djunit-0.8.6-eclipse3.7.x-updatesite.zip](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6-eclipse3.7.x-updatesite.zip) 
+Download Updatesite.zip: [djunit-0.8.6-eclipse3.7.x-updatesite.zip](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6-eclipse3.7.x-updatesite.zip)
 
 ---
