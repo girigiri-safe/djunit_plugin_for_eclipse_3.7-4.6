@@ -119,9 +119,9 @@ Maven Repository: [https://girigiri-safe.github.io/djunit-maven-repo/](https://g
 - AppClassLoader compatibility issue fixed for Java9.(Base ClassLoader No Longer from URLClassLoader)
 - Improved compatibility with VSCode "java test runner" , Maven and ANT.
 
-Update Site: [https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/)  
-Download: [djunit.jar](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1.jar)  
-Download Updatesite.zip: [djunit-0.9.1-eclipse3.7.x-updatesite.zip](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1-eclipse3.7.x-updatesite.zip)
+Update Site: [https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/)  
+Download: [djunit.jar](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1.jar)  
+Download Updatesite.zip: [djunit-0.9.1-eclipse3.7.x-updatesite.zip](https://girigiri-safe.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1-eclipse3.7.x-updatesite.zip)
 
 ---
 
@@ -131,9 +131,9 @@ Download Updatesite.zip: [djunit-0.9.1-eclipse3.7.x-updatesite.zip](https://piec
 - Repackaged ASM 5.x, 9.x. included.
 - java8 and java11 supported.
 
-Update Site: [https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/)  
-Download: [djunit.jar](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0.jar)  
-Download Updatesite.zip: [djunit-0.9.0-eclipse3.7.x-updatesite.zip](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0-eclipse3.7.x-updatesite.zip)
+Update Site: [https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/)  
+Download: [djunit.jar](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0.jar)  
+Download Updatesite.zip: [djunit-0.9.0-eclipse3.7.x-updatesite.zip](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0-eclipse3.7.x-updatesite.zip)
 
 ---
 
@@ -142,8 +142,8 @@ Download Updatesite.zip: [djunit-0.9.0-eclipse3.7.x-updatesite.zip](https://piec
 - runnable on eclipse3.7 to 4.6.
 - java8 not supported.
 
-Update Site: [https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/)  
-Download: [djunit.jar](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6.jar)  
-Download Updatesite.zip: [djunit-0.8.6-eclipse3.7.x-updatesite.zip](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6-eclipse3.7.x-updatesite.zip)
+Update Site: [https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/](https://pgirigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/)  
+Download: [djunit.jar](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6.jar)  
+Download Updatesite.zip: [djunit-0.8.6-eclipse3.7.x-updatesite.zip](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6-eclipse3.7.x-updatesite.zip)
 
 ---
