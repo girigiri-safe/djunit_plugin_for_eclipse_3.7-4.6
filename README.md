@@ -13,9 +13,9 @@ djUnit plugin for Eclipse version 3.7 - 4.6
 | 4.5             |      Mars |
 | 4.6             |      Neon |
 
-for Eclipse 4.7 - 4.18 is [here](https://piecemeal-technology-inc.github.io/djunit_plugin_for_eclipse_4.7-4.18/).
+for Eclipse 4.7 - 4.18 is [here](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_4.7-4.18/).
 
-Maven Repository: [https://piecemeal-technology-inc.github.io/djunit-maven-repo/](https://piecemeal-technology-inc.github.io/djunit-maven-repo/)
+Maven Repository: [https://girigiri-safe.github.io/djunit-maven-repo/](https://girigiri-safe.github.io/djunit-maven-repo/)
 
 ---
 
