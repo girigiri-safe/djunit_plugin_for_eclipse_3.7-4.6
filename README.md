@@ -121,7 +121,7 @@ Maven Repository: [https://girigiri-safe.github.io/djunit-maven-repo/](https://g
 
 Update Site: [https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/)  
 Download: [djunit.jar](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1.jar)  
-Download Updatesite.zip: [djunit-0.9.1-eclipse3.7.x-updatesite.zip](https://girigiri-safe.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1-eclipse3.7.x-updatesite.zip)
+Download Updatesite.zip: [djunit-0.9.1-eclipse3.7.x-updatesite.zip](https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1-eclipse3.7.x-updatesite.zip)
 
 ---
 
