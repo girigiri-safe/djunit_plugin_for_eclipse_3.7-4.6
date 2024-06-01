@@ -132,7 +132,9 @@
             <table class="text-center border-collapse border border-indigo-800">
                 <thead>
                     <tr>
-                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">eclipseバージョン</th>
+                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">
+                            eclipseバージョン
+                        </th>
                         <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">コードネーム</th>
                     </tr>
                 </thead>
@@ -227,7 +229,7 @@
             <p class="mt-10 p-2 border border-slate-400">settings.xml または pom.xml</p>
 
             <div class="mb-3 px-2 py-3 text-sm bg-gray-100">
-                    <pre class="highlight"><code>  &lt;repositories&gt;
+                <pre class="highlight"><code>  &lt;repositories&gt;
     &lt;repository&gt;
       &lt;id&gt;djunit.repository&lt;/id&gt;
       &lt;name&gt;djUnit repository&lt;/name&gt;
@@ -238,7 +240,7 @@
             </div>
 
             <div class="mb-3 px-2 py-3 text-sm bg-gray-100">
-                    <pre class="highlight"><code>  &lt;dependencies&gt;
+                <pre class="highlight"><code>  &lt;dependencies&gt;
     ...
     &lt;dependency&gt;
       &lt;groupId&gt;jp.co.pmtech&lt;/groupId&gt;
@@ -256,7 +258,7 @@
             </div>
 
             <div class="mb-3 px-2 py-3 text-sm bg-gray-100">
-                    <pre class="highlight"><code>&lt;build&gt;
+                <pre class="highlight"><code>&lt;build&gt;
     &lt;pluginManagement&gt;
       &lt;plugins&gt;
         ...
@@ -278,9 +280,7 @@
 </code></pre>
             </div>
 
-            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">
-                JVM引数について
-            </p>
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">JVM引数について</p>
             <p>VSCodeやMavenでdjUnitを実行するときは、以下のJVM引数を設定してください。</p>
             <table class="text-left border-collapse border border-indigo-800">
                 <thead>
@@ -319,47 +319,52 @@
                 </tbody>
             </table>
 
-            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">
-                リリースノート
-            </p>
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">リリースノート</p>
 
-            <p class="w-36 m-3 px-3 py-1 text-xl text-white bg-indigo-800 rounded-full text-center">
-                version 0.9.1
-            </p>
+            <p class="w-36 m-3 px-3 py-1 text-xl text-white bg-indigo-800 rounded-full text-center">version 0.9.1</p>
 
             <div class="mx-10 mb-10">
                 <ul class="p-3 border border-slate-400">
                     <li class="m-2">
-                        AppClassLoader compatibility issue fixed for Java9.(Base ClassLoader No Longer from URLClassLoader)
+                        AppClassLoader compatibility issue fixed for Java9.(Base ClassLoader No Longer from
+                        URLClassLoader)
                     </li>
                     <li class="m-2">Improved compatibility with VSCode “java test runner” , Maven and ANT.</li>
                 </ul>
 
-                <p>
-                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Update Site</p>
-                    <a class="underline" href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/"
+                <div>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">
+                        Update Site
+                    </p>
+                    <a
+                        class="underline"
+                        href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/"
                         >https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/</a
                     >
-                </p>
-                <p>
-                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Jar File Download</p>
-                    <a class="underline"
-                    href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1.jar"
-                    >djunit-0.9.1.jar</a
+                </div>
+                <div>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">
+                        Jar File Download
+                    </p>
+                    <a
+                        class="underline"
+                        href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1.jar"
+                        >djunit-0.9.1.jar</a
                     >
-                </p>
-                <p>
-                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Updatesite.zip</p>
-                    <a class="underline"
+                </div>
+                <div>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">
+                        Updatesite.zip
+                    </p>
+                    <a
+                        class="underline"
                         href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1-eclipse3.7.x-updatesite.zip"
                         >djunit-0.9.1-eclipse3.7.x-updatesite.zip</a
                     >
-                </p>
+                </div>
             </div>
 
-            <p class="w-36 m-3 px-3 py-1 text-xl text-white bg-indigo-800 rounded-full text-center">
-                version 0.9.0
-            </p>
+            <p class="w-36 m-3 px-3 py-1 text-xl text-white bg-indigo-800 rounded-full text-center">version 0.9.0</p>
 
             <div class="mx-10 mb-10">
                 <ul class="p-3 border border-slate-400">
@@ -368,31 +373,39 @@
                     <li class="m-2">java8 and java11 supported.</li>
                 </ul>
 
-                <p>
-                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Update Site</p>
-                    <a class="underline" href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/"
+                <div>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">
+                        Update Site
+                    </p>
+                    <a
+                        class="underline"
+                        href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/"
                         >https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/</a
                     >
-                </p>
-                <p>
-                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Jar File Download</p>
-                    <a class="underline"
+                </div>
+                <div>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">
+                        Jar File Download
+                    </p>
+                    <a
+                        class="underline"
                         href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0.jar"
                         >djunit-0.9.0.jar</a
                     >
-                </p>
-                <p>
-                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Updatesite.zip</p>
-                    <a class="underline"
+                </div>
+                <div>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">
+                        Updatesite.zip
+                    </p>
+                    <a
+                        class="underline"
                         href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0-eclipse3.7.x-updatesite.zip"
                         >djunit-0.9.0-eclipse3.7.x-updatesite.zip</a
                     >
-                </p>
+                </div>
             </div>
 
-            <p class="w-36 m-3 px-3 py-1 text-xl text-white bg-indigo-800 rounded-full text-center">
-                version 0.8.6
-            </p>
+            <p class="w-36 m-3 px-3 py-1 text-xl text-white bg-indigo-800 rounded-full text-center">version 0.8.6</p>
 
             <div class="mx-10 mb-10">
                 <ul class="p-3 border border-slate-400">
@@ -400,28 +413,37 @@
                     <li class="m-2">java8 not supported.</li>
                 </ul>
 
-                <p>
-                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Update Site</p>
-                    <a class="underline" href="https://pgirigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/"
+                <div>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">
+                        Update Site
+                    </p>
+                    <a
+                        class="underline"
+                        href="https://pgirigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/"
                         >https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/</a
                     >
-                </p>
-                <p>
-                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Jar File Download</p>
-                    <a class="underline"
+                </div>
+                <div>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">
+                        Jar File Download
+                    </p>
+                    <a
+                        class="underline"
                         href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6.jar"
                         >djunit-0.8.6.jar</a
                     >
-                </p>
-                <p>
-                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Updatesite.zip</p>
-                    <a class="underline"
+                </div>
+                <div>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">
+                        Updatesite.zip
+                    </p>
+                    <a
+                        class="underline"
                         href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6-eclipse3.7.x-updatesite.zip"
                         >djunit-0.8.6-eclipse3.7.x-updatesite.zip</a
                     >
-                </p>
+                </div>
             </div>
-
         </div>
     </body>
 </html>
