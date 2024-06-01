@@ -1,7 +1,5 @@
 title: djUnit plugin
 description: for Eclipse 3.7 - 4.6
-remote_theme: jekyll/minima
 plugins:
   - jekyll-sitemap
-  - jekyll-remote-theme
 google_analytics: "G-3WSTH50BCE"
