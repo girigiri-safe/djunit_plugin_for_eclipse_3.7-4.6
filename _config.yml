@@ -1,4 +1,5 @@
-title: djUnit plugin for Eclipse (3.7 - 4.6)
+title: djUnit plugin
+description: for Eclipse 3.7 - 4.6
 remote_theme: jekyll/minima
 plugins:
   - jekyll-sitemap
