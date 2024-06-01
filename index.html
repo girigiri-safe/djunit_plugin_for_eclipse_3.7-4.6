@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>djunit plugin for eclipse 3.7-4.6</title>
+        <meta name="description" content="djunit plugin Eclipse 3.7 4.2 4.3 4.4 4.5 4.6" />
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "description": "djunit plugin Eclipse 3.7 4.2 4.3 4.4 4.5 4.6",
+                "headline": "djunit plugin for eclipse 3.7-4.6",
+                "name": "djUnit plugin",
+                "url": "https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/"
+            }
+        </script>
+        <link
+            type="application/atom+xml"
+            rel="alternate"
+            href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/feed.xml"
+            title="djUnit plugin"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3WSTH50BCE"></script>
+        <script>
+            window["ga-disable-G-3WSTH50BCE"] =
+                window.doNotTrack === "1" ||
+                navigator.doNotTrack === "1" ||
+                navigator.doNotTrack === "yes" ||
+                navigator.msDoNotTrack === "1";
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                window.dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-3WSTH50BCE");
+        </script>
+    </head>
+    <body class="m-10">
+        <div class="p-10 text-lg text-white bg-indigo-800 rounded-lg">
+            <h1 class="text-6xl">djUnit plugin</h1>
+            <h2 class="text-4xl text-right">for Eclipse 3.7 - 4.6</h2>
+        </div>
+        <div class="text-xl">
+            <p class="text-right">
+                Eclipse 4.7 - 4.18 向けは、
+                <a
+                    class="text-red-500 underline"
+                    href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_4.7-4.18/"
+                    >こちら</a
+                >
+                をクリック
+            </p>
+
+            <p>djunitの最新バージョンは 0.9.1 です</p>
+        </div>
+        <div class="text-lg">
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">はじめに</p>
+            <p class="my-3">Eclipse version 3.7から4.6で動作するdjUnit pluginを公開しています。</p>
+            <p class="my-3">java8やjava11でのdjUnitテストが実行可能です。</p>
+            <p class="my-3">新しいEclipseやJava runtime でdjUnitを動作させたい場合に利用してください。</p>
+
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">GitHub</p>
+            <table class="border-collapse border border-slate-400">
+                <tr>
+                    <td class="p-2 text-indigo-800 bg-gray-300 border border-indigo-800">URL</td>
+                    <td class="p-2 border border-indigo-800">
+                        <a class="underline" href="https://github.com/girigiri-safe/djunit_plugin_for_eclipse_3.7-4.6"
+                            >https://github.com/girigiri-safe/djunit_plugin_for_eclipse_3.7-4.6</a
+                        >
+                    </td>
+                </tr>
+            </table>
+
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">ダウンロード</p>
+
+            <p class="w-36 m-3 px-3 py-1 text-sm text-white bg-indigo-800 rounded-full text-center">version 0.9.1</p>
+
+            <p class="underline">ダウンロード</p>
+            <table class="border-collapse border border-slate-400">
+                <tr>
+                    <td class="p-2 text-xl text-indigo-800 bg-gray-300 border border-indigo-800">jarファイル</td>
+                    <td class="p-2 border border-indigo-800">
+                        <a
+                            class="underline"
+                            href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1.jar"
+                            >djunit-0.9.1.jar</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="p-2 text-indigo-800 bg-gray-300 border border-indigo-800">updatesite.zip</td>
+                    <td class="p-2 border border-indigo-800">
+                        <a
+                            class="underline"
+                            href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1-eclipse3.7.x-updatesite.zip"
+                            >djunit-0.9.1-eclipse3.7.x-updatesite.zip</a
+                        >
+                    </td>
+                </tr>
+            </table>
+            <p class="underline">アップデートサイト</p>
+            <table class="border-collapse border border-slate-400">
+                <tr>
+                    <td class="p-2 text-indigo-800 bg-gray-300 border border-indigo-800">URL</td>
+                    <td class="p-2 border border-indigo-800">
+                        <a
+                            class="underline"
+                            href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/"
+                            >https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/</a
+                        >
+                    </td>
+                </tr>
+            </table>
+
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">Mavenリポジトリ</p>
+            <table class="border-collapse border border-slate-400">
+                <tr>
+                    <td class="p-2 text-indigo-800 bg-gray-300 border border-indigo-800">URL</td>
+                    <td class="p-2 border border-indigo-800">
+                        <a class="underline" href="https://girigiri-safe.github.io/djunit-maven-repo/"
+                            >https://girigiri-safe.github.io/djunit-maven-repo/</a
+                        >
+                    </td>
+                </tr>
+            </table>
+
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">動作確認済のEclipseバージョン</p>
+            <table class="text-center border-collapse border border-indigo-800">
+                <thead>
+                    <tr>
+                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">eclipseバージョン</th>
+                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">コードネーム</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-indigo-800">3.7</td>
+                        <td class="border border-indigo-800">Indigo</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-indigo-800">4.2</td>
+                        <td class="border border-indigo-800">Juno</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-indigo-800">4.3</td>
+                        <td class="border border-indigo-800">Kepler</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-indigo-800">4.4</td>
+                        <td class="border border-indigo-800">Luna</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-indigo-800">4.5</td>
+                        <td class="border border-indigo-800">Mars</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-indigo-800">4.6</td>
+                        <td class="border border-indigo-800">Neon</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">ASMのバージョン</p>
+            <p>実行環境に応じてASMのバージョンを切り替えて実行してください</p>
+            <table class="text-center border-collapse border border-indigo-800">
+                <thead>
+                    <tr>
+                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">ASMバージョン</th>
+                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">
+                            ASMがサポートするjava
+                        </th>
+                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">
+                            動作するJREのバージョン
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-indigo-800">5.2</td>
+                        <td class="border border-indigo-800">java8まで</td>
+                        <td class="border border-indigo-800">1.5以上</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-indigo-800">9.1</td>
+                        <td class="border border-indigo-800">java17まで</td>
+                        <td class="border border-indigo-800">7以上</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">
+                VSCodeのJava Test RunnerでdjUnitを実行する方法
+            </p>
+            <p>djUnit 0.9.1から、VSCodeのJava Test RunnerでdjUnitを実行することができます。</p>
+            <p>以下を参考に設定してください。</p>
+
+            <p class="mt-10 p-2 border border-slate-400">.vscode/settings.json</p>
+            <div class="px-2 py-3 text-sm bg-gray-100">
+                <pre class="highlight"><code>{
+    ...
+    "java.test.config": {
+        "name": "run test with djunit.",
+        "workingDirectory": "${workspaceFolder}",
+        "args": [],
+        "vmArgs": [
+            "-Djava.system.class.loader=jp.co.dgic.testing.common.DJUnitClassLoader" ,
+            "-Ddjunit.virtualmock.enable=true",
+            "-Ddjunit.asm.version=ASM9",
+            "-Ddjunit.target.src.dir=${workspaceFolder}/src/main/java"
+        ],
+        "sourcePaths": ["${workspaceFolder}/src/main/java"]
+    },
+    ...
+}
+</code></pre>
+            </div>
+
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">
+                Maven Surefire PluginでdjUnitを実行する方法
+            </p>
+            <p>djUnit 0.9.1から、Maven Surefire PluginでdjUnitを実行することができます。</p>
+            <p>以下を参考に設定してください。</p>
+            <p class="mt-10 p-2 border border-slate-400">settings.xml または pom.xml</p>
+
+            <div class="mb-3 px-2 py-3 text-sm bg-gray-100">
+                    <pre class="highlight"><code>  &lt;repositories&gt;
+    &lt;repository&gt;
+      &lt;id&gt;djunit.repository&lt;/id&gt;
+      &lt;name&gt;djUnit repository&lt;/name&gt;
+      &lt;url&gt;https://girigiri-safe.github.io/djunit-maven-repo/&lt;/url&gt;
+    &lt;/repository&gt;
+  &lt;/repositories&gt;
+</code></pre>
+            </div>
+
+            <div class="mb-3 px-2 py-3 text-sm bg-gray-100">
+                    <pre class="highlight"><code>  &lt;dependencies&gt;
+    ...
+    &lt;dependency&gt;
+      &lt;groupId&gt;jp.co.pmtech&lt;/groupId&gt;
+      &lt;artifactId&gt;djunit&lt;/artifactId&gt;
+      &lt;version&gt;0.9.1&lt;/version&gt;
+    &lt;/dependency&gt;
+    &lt;dependency&gt;
+      &lt;groupId&gt;jp.co.pmtech&lt;/groupId&gt;
+      &lt;artifactId&gt;djunit-asm&lt;/artifactId&gt;
+      &lt;version&gt;9.1&lt;/version&gt;
+    &lt;/dependency&gt;
+    ...
+  &lt;/dependencies&gt;
+</code></pre>
+            </div>
+
+            <div class="mb-3 px-2 py-3 text-sm bg-gray-100">
+                    <pre class="highlight"><code>&lt;build&gt;
+    &lt;pluginManagement&gt;
+      &lt;plugins&gt;
+        ...
+        &lt;plugin&gt;
+          &lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;
+          &lt;version&gt;...&lt;/version&gt;
+          &lt;configuration&gt;
+            &lt;includes&gt;
+              &lt;include&gt;**/*Test.java&lt;/include&gt;
+            &lt;/includes&gt;
+            &lt;argLine&gt;-Djava.system.class.loader=jp.co.dgic.testing.common.DJUnitClassLoader -Ddjunit.coverage.enable=true -Ddjunit.virtualmock.enable=true -Ddjunit.asm.version=ASM9 -Ddjunit.target.src.dir=${project.basedir}\src\main\java&lt;/argLine&gt;
+          &lt;/configuration&gt;
+        &lt;/plugin&gt;
+        ...
+      &lt;/plugins&gt;
+    &lt;/pluginManagement&gt;
+  &lt;/build&gt;
+
+</code></pre>
+            </div>
+
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">
+                JVM引数について
+            </p>
+            <p>VSCodeやMavenでdjUnitを実行するときは、以下のJVM引数を設定してください。</p>
+            <table class="text-left border-collapse border border-indigo-800">
+                <thead>
+                    <tr>
+                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">VM引数</th>
+                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">設定値</th>
+                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">デフォルト値</th>
+                        <th class="px-5 py-2 text-indigo-800 bg-gray-300 border border-indigo-800">必須</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="px-2 border border-indigo-800">java.system.class.loader</td>
+                        <td class="px-2 border border-indigo-800">jp.co.dgic.testing.common.DJUnitClassLoader</td>
+                        <td class="px-2 border border-indigo-800 text-center"></td>
+                        <td class="px-2 border border-indigo-800 text-center">Yes</td>
+                    </tr>
+                    <tr>
+                        <td class="px-2 border border-indigo-800">djunit.virtualmock.enable</td>
+                        <td class="px-2 border border-indigo-800">true</td>
+                        <td class="px-2 border border-indigo-800 text-center"></td>
+                        <td class="px-2 border border-indigo-800 text-center">Yes</td>
+                    </tr>
+                    <tr>
+                        <td class="px-2 border border-indigo-800">djunit.asm.version</td>
+                        <td class="px-2 border border-indigo-800">ASM9 or ASM5</td>
+                        <td class="px-2 border border-indigo-800 text-center">ASM9</td>
+                        <td class="px-2 border border-indigo-800 text-center">No</td>
+                    </tr>
+                    <tr>
+                        <td class="px-2 border border-indigo-800">djunit.target.src.dir</td>
+                        <td class="px-2 border border-indigo-800">path to your source folder</td>
+                        <td class="px-2 border border-indigo-800 text-center"></td>
+                        <td class="px-2 border border-indigo-800 text-center">Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="my-5 p-3 text-2xl text-white bg-indigo-800 rounded-lg">
+                リリースノート
+            </p>
+
+            <p class="w-36 m-3 px-3 py-1 text-xl text-white bg-indigo-800 rounded-full text-center">
+                version 0.9.1
+            </p>
+
+            <div class="mx-10 mb-10">
+                <ul class="p-3 border border-slate-400">
+                    <li class="m-2">
+                        AppClassLoader compatibility issue fixed for Java9.(Base ClassLoader No Longer from URLClassLoader)
+                    </li>
+                    <li class="m-2">Improved compatibility with VSCode “java test runner” , Maven and ANT.</li>
+                </ul>
+
+                <p>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Update Site</p>
+                    <a class="underline" href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/"
+                        >https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/</a
+                    >
+                </p>
+                <p>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Jar File Download</p>
+                    <a class="underline"
+                    href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1.jar"
+                    >djunit-0.9.1.jar</a
+                    >
+                </p>
+                <p>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Updatesite.zip</p>
+                    <a class="underline"
+                        href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.1/djunit-0.9.1-eclipse3.7.x-updatesite.zip"
+                        >djunit-0.9.1-eclipse3.7.x-updatesite.zip</a
+                    >
+                </p>
+            </div>
+
+            <p class="w-36 m-3 px-3 py-1 text-xl text-white bg-indigo-800 rounded-full text-center">
+                version 0.9.0
+            </p>
+
+            <div class="mx-10 mb-10">
+                <ul class="p-3 border border-slate-400">
+                    <li class="m-2">ASM 3.x, 2.x and 1.5 removed.</li>
+                    <li class="m-2">Repackaged ASM 5.x, 9.x. included.</li>
+                    <li class="m-2">java8 and java11 supported.</li>
+                </ul>
+
+                <p>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Update Site</p>
+                    <a class="underline" href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/"
+                        >https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/</a
+                    >
+                </p>
+                <p>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Jar File Download</p>
+                    <a class="underline"
+                        href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0.jar"
+                        >djunit-0.9.0.jar</a
+                    >
+                </p>
+                <p>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Updatesite.zip</p>
+                    <a class="underline"
+                        href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.9.0/djunit-0.9.0-eclipse3.7.x-updatesite.zip"
+                        >djunit-0.9.0-eclipse3.7.x-updatesite.zip</a
+                    >
+                </p>
+            </div>
+
+            <p class="w-36 m-3 px-3 py-1 text-xl text-white bg-indigo-800 rounded-full text-center">
+                version 0.8.6
+            </p>
+
+            <div class="mx-10 mb-10">
+                <ul class="p-3 border border-slate-400">
+                    <li class="m-2">runnable on eclipse3.7 to 4.6.</li>
+                    <li class="m-2">java8 not supported.</li>
+                </ul>
+
+                <p>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Update Site</p>
+                    <a class="underline" href="https://pgirigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/"
+                        >https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/</a
+                    >
+                </p>
+                <p>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Jar File Download</p>
+                    <a class="underline"
+                        href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6.jar"
+                        >djunit-0.8.6.jar</a
+                    >
+                </p>
+                <p>
+                    <p class="my-2 w-32 text-sm text-center text-indigo-800 border border-indigo-800 rounded-full">Updatesite.zip</p>
+                    <a class="underline"
+                        href="https://girigiri-safe.github.io/djunit_plugin_for_eclipse_3.7-4.6/updatesite/0.8.6/djunit-0.8.6-eclipse3.7.x-updatesite.zip"
+                        >djunit-0.8.6-eclipse3.7.x-updatesite.zip</a
+                    >
+                </p>
+            </div>
+
+        </div>
+    </body>
+</html>
