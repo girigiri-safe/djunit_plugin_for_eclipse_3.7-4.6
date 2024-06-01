@@ -63,7 +63,7 @@ Maven Repository: [https://girigiri-safe.github.io/djunit-maven-repo/](https://g
     <repository>
       <id>djunit.repository</id>
       <name>djUnit repository</name>
-      <url>https://piecemeal-technology-inc.github.io/djunit-maven-repo/</url>
+      <url>https://girigiri-safe.github.io/djunit-maven-repo/</url>
     </repository>
   </repositories>
 ```
